@@ -80,6 +80,40 @@ body {
     margin-bottom: 0.5em;
 }
 
+/* Judges Section */
+.judges-link {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.judges-link h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #007BFF;
+}
+
+.judges-link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.judges-link .judges-image {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    transition: transform 0.3s ease;
+}
+
+.judges-link .judges-image:hover {
+    transform: scale(1.05);
+}
+
+.judges-link p {
+    font-size: 1.1em;
+    color: #555;
+}
+
 /* Connect Section */
 .connect {
     background-color: #333;
